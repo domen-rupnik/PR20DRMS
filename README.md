@@ -32,6 +32,6 @@ Odločila sva se, da pogledava, koliko izmed vseh registrianih je registriranih 
 
 ### Vizualizacija goriv registriranih vozil
 
-
+Pri tej vizualizaciji sta pričakovano prevladovali dizelsko in bencinsko gorivo, ostalih goriv je bilo nesmiselno dodajati na graf. Obe krivulji upadata, kar je posledica sprememb na tem področju avtomobilizma, saj na trg prihajajo predvsem vozila na električni pogon. Zanimiva je tudi razlika registriranih vozil z bencinskim gorivom, med letoma 2017 in 2016.
 
 <img src="slike/graf_bencin_dizel.PNG" width="500" height="350">
