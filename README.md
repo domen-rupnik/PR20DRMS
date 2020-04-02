@@ -1,6 +1,14 @@
-# Fakulteta za računalništvo in informatiko, Univerza v Ljubljan
+->
+# Fakulteta za računalništvo in informatiko, Univerza v Ljubljani
 <hr>
+Domen Rupnik in Matic Šuc
+<br>
 # Projektna naloga
+<br>
+Projektna naloga pri predmetu Podatkovno rudarjenje
+<br>
+MENTOR: doc. dr. Tomaž Curk
+<-
 
 V projektu pri predmetu Podatkovno rudarjenje, sva s sošolcem izbrala podatke s spletne strani www.podatki.gov.si.<br>
 Uporabljeni so podatki o prvič registriranih vozilih v Sloveniji.<br>
