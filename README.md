@@ -35,3 +35,9 @@ Odločila sva se, da pogledava, koliko izmed vseh registrianih je registriranih 
 Pri tej vizualizaciji sta pričakovano prevladovali dizelsko in bencinsko gorivo, ostalih goriv je bilo nesmiselno dodajati na graf. Obe krivulji upadata, kar je posledica sprememb na tem področju avtomobilizma, saj na trg prihajajo predvsem vozila na električni pogon. Zanimiva je tudi razlika registriranih vozil z bencinskim gorivom, med letoma 2017 in 2016.
 
 <img src="slike/graf_bencin_dizel.PNG" width="500" height="350">
+
+### Vizualizacija znamk registriranih vozil
+
+Za to vizualizacijo sva najprej za vsako leto izpisala 3 največ registriranih znamk v tistem letu in ugotovila, da prevladujejo te, ki so vizualizirane na grafu. Presenetljivo je leta 2017, kot 3. najbolj registrirana znamka vozil bila TOMOS, za preostala leta pa je bil razpored enak.
+
+<img src="graf_znamke_po_letih.PNG" width="500" height="350">
