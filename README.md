@@ -1,12 +1,13 @@
-# <div align="center">Fakulteta za računalništvo in informatiko, Univerza v Ljubljani</div>
+# <div style="text-align: center;">Fakulteta za računalništvo in informatiko, Univerza v Ljubljani
 <hr>
-<div align="center">Domen Rupnik in Matic Šuc</div>
+Domen Rupnik in Matic Šuc
 <br>
-# <div align="center">Projektna naloga</div>
+# Projektna naloga
 <br>
-<div align="center">Projektna naloga pri predmetu Podatkovno rudarjenje</div>
+Projektna naloga pri predmetu Podatkovno rudarjenje
 <br>
-<div align="center">MENTOR: doc. dr. Tomaž Curk</div>
+MENTOR: doc. dr. Tomaž Curk
+</div>
 
 
 V projektu pri predmetu Podatkovno rudarjenje, sva s sošolcem izbrala podatke s spletne strani www.podatki.gov.si.<br>
