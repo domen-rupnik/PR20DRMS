@@ -21,6 +21,7 @@ Eden izmed najinih ciljev pri projektni nalogi je bil, da bi ugotovila, katera j
 <img src="slike/graf_barva.png" width="500" height="350">
 <hr>
 ### Prikaz števila vozil glede na občino
+
 Zanimalo naju je tudi, katera občina ima največ na novo registriranih vozil. Predvidevala sva, da je to občina Ljubljana, saj je občina, ki ima največ prebivalcev. Po prvem delu analize sva ugotovila, da je to res občina Ljubljana. Med letoma 2015 in 2019 je imela na novo registrianih kar 154.514. To se nama je zdelo zelo čudno, saj ima občina Ljubljana 288.832 prebivalcev. Kar bi pomenilo, da bi vsak drugi prebivalec občine Ljubljana si v tem času kupil novo vozilo. Šla sva pregledovat podatke in ugotovila, da med podatki niso samo na novo registirana vozila, ampak tudi vozila, ki se jih je v tem času odjavilo. Zato sva popravila kodo in novo število na novo registriranih vozil v Ljubljani je bilo 132.185. Še vedno je bila zelo velika številka. Narisala sva graf za 10 občin z največ vozili.
 
 <img src="slike/graf_obcine.png" width="500" height="350">
@@ -30,6 +31,7 @@ Odločila sva se, da pogledava, koliko izmed vseh registrianih je registriranih 
 <img src="slike/graf_obcine_fizicni.png" width="500" height="350">
 <hr>
 ### Prikaz števila vozil glede na državo porekla
+
 Analizirala sva tudi število vozil glede na državo porekla. Ugotovila sva, da je Slovenija kot država porekla vozila  na osmem mestu. Prva je kot pričakovano Nemčija. Vseh različnih držav je 70. Med vsemi je vozili ima Slovenija 1.98% delež, Nemčija pa 36.64%. Vizualizirala sva graf števila vozil na državo.
 
 <img src="slike/graf_drzave.png" width="500" height="350">
