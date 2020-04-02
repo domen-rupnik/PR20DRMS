@@ -41,3 +41,9 @@ Pri tej vizualizaciji sta pričakovano prevladovali dizelsko in bencinsko gorivo
 Za to vizualizacijo sva najprej za vsako leto izpisala 3 največ registriranih znamk v tistem letu in ugotovila, da prevladujejo te, ki so vizualizirane na grafu. Presenetljivo je leta 2017, kot 3. najbolj registrirana znamka vozil bila TOMOS, za preostala leta pa je bil razpored enak.
 
 <img src="slike/graf_znamke_po_letih.PNG" width="500" height="350">
+
+### Vizualizacija starosti registriranih vozil
+
+Za to vizualizacijo sva najprej za vsako leto izpisala 3 največ registriranih znamk v tistem letu in ugotovila, da prevladujejo te, ki so vizualizirane na grafu. Presenetljivo je leta 2017, kot 3. najbolj registrirana znamka vozil bila TOMOS, za preostala leta pa je bil razpored enak.
+
+<img src="slike/graf_starost_vozil.PNG" width="500" height="350">
