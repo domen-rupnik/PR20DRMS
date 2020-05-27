@@ -84,3 +84,6 @@ Iz grafa lahko razberemo da je cena dizla od leta 2015 pa do 2017 nihala nad 1.2
 
 Pri vizualizaciji bencina ter novo registriranih bencinskih vozil, pa to ni tako očitno oziroma samo za nekatera krajša obdobja, kar lahko namiguje na to, da se kupci novih bencinskih vozil niso preveč ozirali na trenutno ceno bencina.
 
+## Zaključek
+
+Pri tem projektu sva se prvič srečala s podatkovnim rudarjenjem. Projekt naju je sprva spominjal na delo s poizvedbami pri podatkovnih bazah, ko sva začela z izpisovanjem osnovnih podatkov. V nadaljevanju pa so stvari postale zanimivejše, ko sva odkrivala zanimivosti v podatkih. Zagotovo je ostalo še veliko zanimivih tem in ugotovitev v tej podatkovni zbirki.
