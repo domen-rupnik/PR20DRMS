@@ -106,4 +106,4 @@ Največ registracij mopedov so v Sloveniji zabeležili aprila 2017, torej mesec 
 
 ## Zaključek
 
-Pri tem projektu sva se prvič srečala s podatkovnim rudarjenjem. Projekt naju je sprva spominjal na delo s poizvedbami pri podatkovnih bazah, ko sva začela z izpisovanjem osnovnih podatkov. V nadaljevanju pa so stvari postale zanimivejše, ko sva odkrivala zanimivosti v podatkih. Zagotovo je ostalo še veliko zanimivih tem in ugotovitev v tej podatkovni zbirki.
+Pri tem projektu sva se prvič srečala s podatkovnim rudarjenjem. Projekt naju je sprva spominjal na delo s poizvedbami pri podatkovnih bazah, ko sva začela z izpisovanjem osnovnih podatkov. V nadaljevanju pa so stvari postale zanimivejše, ko sva odkrivala zanimivosti v podatkih. Zagotovo ostaja še veliko zanimivih tem in ugotovitev v tej podatkovni zbirki.
