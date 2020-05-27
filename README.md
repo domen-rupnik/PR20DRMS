@@ -12,9 +12,19 @@ V nadaljevanju je predstavljena dosedanje delo pri projektni nalogi pri predmetu
 ## Podatki
 Podatki so pridobljeni iz spletne strani [podatki.gov.si](https://podatki.gov.si/dataset/prvic-registrirana-vozila-po-mesecih), kjer so za vsak mesec zbrani podatki o registraciji vozil v Sloveniji, v csv datotekah, poimenovanih 'Podatki_mesecleto'. V projektni nalogi, bova uporabljala 60 takih datotek, torej podatke za obdobje od leta 2015 do leta 2019. Vsaka vrstica je opisana s 101 atributom. Atributi vecinoma opisujejo lastnosti in identifikacijo vozila, podtke o lokaciji registracije in nekaj osnovnih podatkov o lastniku vozila oz osebi, ki ga je registrirala.
 
+Med izdelavo projekta sva uporabila še dodatne podatke o cenah goriv skozi leta. Podatki so bili pridobljeni iz spletne strani [podatki.gov.si](https://www.gov.si/teme/cene-naftnih-derivatov/), kjer sta za dizel in bencin datoteki tipa doc, v katerih so tabele cen goriv, ki se spreminjajo vsaj vsakih 14 dni.
+
 Pri delu s podatki je bilo odkritih nekaj napak, na katere sva bila v nadaljevanju bolj pozorna.
 
+## Problem
+Problem oziroma cilj te projektne naloge je bil, najti oziroma pridobiti zanimive ugotovite iz večjih podatkov. Na začetku, sva si zastavila nekaj osnovnih ciljev, ki sva jih v nadaljevanju vizualizirala, nato pa med delom odkrila nove zanimivosti in raziskovala v njihovi smeri.
+
 ## Izvedene analize
+
+### Največja hitrost
+
+Za začetek naju je zanimalo katera vozila imajo največjo hitrost. Pri tej nalogi sva najprej dobila nerealne rezultate in ugotovila, da je v podatkih veliko napak. To sva popravila tako, da sva hitrost vozil v podatkih filtrirala do meje 370 km/h, ki se izkazala za optimalno in tako dobila realnejše oziroma pravilne podatke. Z znanjem te analize, sva nadaljevala projektno nalogo in bila pozorna na napake v podatkih v nadaljevanju. 
+
 ### Vizualizacija najpogostejše barve glede na čas
 Eden izmed najinih ciljev pri projektni nalogi je bil, da bi ugotovila, katera je bila najpogostejša barva pri na novo registriranih avtomobilih v Sloveniji. Kmalu sva ugotovila, da je bila za vsak mesec med leti 2015 in 2019, najpogostejša barva bela. Na drugem in tretjem mestu pa sta se izmenjevali svetlo-siva ter temno-siva. Nad rezultatom sva bila presenečena, saj sva pričakovala, da bi bila najpogostejša barva siva. Na koncu sva se odločila, da bova vizualizirala, kakšen odstotek od vseh barv, predstavlja bela barva. Ker je pa vseh mesecev 60, sva se odločila, da jih združiva po polletjih. Od januarja do junija je prvo polletje in od julija do decembra drugo. Glede na graf sva prišla do spoznanja, da je bele barve povprečno pribljižno malo manj kot 20%.
 
@@ -47,3 +57,30 @@ Za to vizualizacijo sva najprej za vsako leto izpisala 3 največ registriranih z
 Pri tej vizualizaciji je bilo potrebno podatek o starosti vozil klasificirati. Prvi razred je novo vozilo, v drugi razred sva klasificirala vozila stara največ 5 let, v tretji pa vsa ostala. Z drugačnim klasificiranjem, bi prišlo do drugačnih rezultatov oz vizualizacij.
 
 <img src="slike/graf_starost_vozil.PNG" width="500" height="350">
+
+### Uvoz vozil
+
+Do zanimivih ugotovitev sva prišla tudi pri temi uvažanja vozil iz tujine. Za registrirano vozilo, ki je bilo uvoženo sva označila vsa tista vozila, pri katerih je bil atribut prva registracija vozila različen od atributa prva registracija vozila v Sloveniji. Najprej sva preštela uvožena vozila za vsak mesec v vsakem letu in ugotovila, da od leta 2015 število uvoženih vozil iz tujine narašča. Poleg tega sva nato našla zanimivo ugotovitev, da so si porazdelitve števil uvoženih vozil iz tujine po letih zelo podobne. Zanimivo je, da je največ uvoženih vozil iz tujine v mesecu marcu, nato pa število počasi upada z manjšo špico v mesecu oktobru. Zakaj je temu tako, se nisva poglobila in obstaja odprto vprašanje. Ugotovitvi sva prikazala tudi s spodnjo vizualizacijo.
+
+<img src="slike/uvozena_vozila1.PNG" width="500" height="350">
+
+Po tej ugotovitvi sva preverila kako je s porazdelitvijo števila vseh registriranih vozil skozi leto, za vsako leto. Graf je precej podoben prejšnjemu o uvoženih vozilih iz tujine, kar prikazuje konsistentnost s prejšnjo ugotovitvijo.
+
+<img src="slike/reg_vozila.PNG" width="500" height="350">
+
+Naslednja ugotovitev na to temo je bila, da je Nemčija država, ki prevladuje pred drugimi država, iz katerih se uvaža vozila v Slovenijo. To je razvidno tudi iz vizualizacije znamk uvoženih vozil iz tujine, v katerih prevladujejo nemške znamke. Na podoben način pa med znamkami uvoženih vozil iz tujine prevladuje znamka Volkswagen, preostale znamke torej Audi, BMW in Mercedes-Benz pa se letno borijo med sabo v številu uvoženih vozil.
+
+<img src="slike/uvozena_vozila2.PNG" width="500" height="350">
+
+### Cene goriv
+
+Zaninimiva tema se nama je zdela tudi povezava med spreminjajočami se cenami goriv torej bencin in dizel ter pogonskimi gorivi novo registriranih vozil. Za to nalogo sva projektu dodala podatke o cenah bencina in dizla. Cene goriv sva mesečno zaokrožila. Prav tako sva za vsak mesec od leta 2015 do 2019 preštela novo registrirane avte ter oboje vizualizirala na enem grafu.
+
+<img src="slike/dizel_reg.PNG" width="500" height="350">
+
+Iz grafa lahko razberemo da je cena dizla od leta 2015 pa do 2017 nihala nad 1.2€, nato pa proti koncu leta 2018 padala do 1€. Z registracijo novih dizelskih vozil pa je bilo v teh dveh obdobjih ravno obratno, kar logično nakazuje na to, da so se kupci odločili za nakup vozila z dizelskim pogonom glede na trenutno ceno dizla.
+
+<img src="slike/bencin_reg.PNG" width="500" height="350">
+
+Pri vizualizaciji bencina ter novo registriranih bencinskih vozil, pa to ni tako očitno oziroma samo za nekatera krajša obdobja, kar lahko namiguje na to, da se kupci novih bencinskih vozil niso preveč ozirali na trenutno ceno bencina.
+
