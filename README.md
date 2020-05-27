@@ -88,11 +88,11 @@ Naslednja ugotovitev na to temo je bila, da je Nemčija država, ki prevladuje p
 
 Zanimiva tema se nama je zdela tudi povezava med spreminjajočami se cenami goriv torej bencin in dizel ter pogonskimi gorivi novo registriranih vozil. Za to nalogo sva projektu dodala podatke o cenah bencina in dizla. Cene goriv sva mesečno zaokrožila. Prav tako sva za vsak mesec od leta 2015 do 2019 preštela novo registrirane avte ter oboje vizualizirala na enem grafu.
 
-<img src="slike/dizel_reg.PNG" width="500" height="350">
+<img src="slike/dizel_reg1.PNG" width="500" height="350">
 
 Iz grafa lahko razberemo da je cena dizla od leta 2015 pa do 2017 nihala nad 1.2€, nato pa proti koncu leta 2018 padala do 1€. Z registracijo novih dizelskih vozil pa je bilo v teh dveh obdobjih ravno obratno, kar logično nakazuje na to, da so se kupci odločili za nakup vozila z dizelskim pogonom glede na trenutno ceno dizla.
 
-<img src="slike/bencin_reg.PNG" width="500" height="350">
+<img src="slike/bencin_reg1.PNG" width="500" height="350">
 
 Pri vizualizaciji bencina ter novo registriranih bencinskih vozil, pa to ni tako očitno oziroma samo za nekatera krajša obdobja, kar lahko namiguje na to, da se kupci novih bencinskih vozil niso preveč ozirali na trenutno ceno bencina.
 
