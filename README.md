@@ -29,6 +29,10 @@ Za začetek naju je zanimalo katera vozila imajo največjo hitrost. Pri tej nalo
 
 Ker sva raziskala hitrosti vozil, sva se odločila, da pogledava še kar se tiče moči vozil (kW).  Najmočnejše vozilo naj bi bil traktor, FIAT Štore 504. Ampak ker je to napaka pri vnosu podatkov, sva rezultate filtrirala in ugotovila, da je najmočnejše novo registrirano vozilo vlečno vozilo VOLVO FH16, ki ima 552 kW. Največjo moč sva pogledala za vsako vrsto vozila posebej. Na primer najmočnejši osebni avtomobil je DODGE Charger Str Hellcat s 527 kW. Najmočnejši motor pa MV AGUSTA F4 RR ABS, s 148 kW.
 
+### Odvisnost moči od prostornine motorja vozil
+
+Odločila sva se, da pogledava odvisnost moči (kW) glede na prostornino motorja vozila. Narisala sva graf, kako se giblje povprečna moč za dano prostornino. Za lažjo primerjavo odvisnosti, sva narisala še premico linearne regresije, okoli katere naj bi se gibala moč glede na prostornino. Vidimo, da to velja le do neke določene točke. Nad to točko odvisnost pade in moč ne narašča več, samo še prostornina motorja.
+
 ### Vizualizacija najpogostejše barve glede na čas
 Eden izmed najinih ciljev pri projektni nalogi je bil, da bi ugotovila, katera je bila najpogostejša barva pri na novo registriranih avtomobilih v Sloveniji. Kmalu sva ugotovila, da je bila za vsak mesec med leti 2015 in 2019, najpogostejša barva bela. Na drugem in tretjem mestu pa sta se izmenjevali svetlo-siva ter temno-siva. Nad rezultatom sva bila presenečena, saj sva pričakovala, da bi bila najpogostejša barva siva. Na koncu sva se odločila, da bova vizualizirala, kakšen odstotek od vseh barv, predstavlja bela barva. Ker je pa vseh mesecev 60, sva se odločila, da jih združiva po polletjih. Od januarja do junija je prvo polletje in od julija do decembra drugo. Glede na graf sva prišla do spoznanja, da je bele barve povprečno pribljižno malo manj kot 20%.
 
